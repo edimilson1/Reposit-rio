@@ -1,0 +1,4 @@
+Coloque aqui as fotos reais (.jpg), uma por material, com o nome da lista em ../nomes.txt.
+Exemplo: aluminio-6061-t6.jpg
+Se a foto nao existir, o site mostra a ilustracao de img/ilustracoes/.
+Use apenas imagens que voces possam usar (proprias, dominio publico ou licenca livre) e cite a fonte no relatorio.

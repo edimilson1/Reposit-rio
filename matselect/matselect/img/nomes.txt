@@ -1,0 +1,80 @@
+aco-sae-1020.jpg  <-  Aço SAE 1020
+aco-sae-1045.jpg  <-  Aço SAE 1045
+aco-inox-aisi-304.jpg  <-  Aço inox AISI 304
+aco-inox-aisi-316.jpg  <-  Aço inox AISI 316
+aco-ferramenta-aisi-d2.jpg  <-  Aço ferramenta AISI D2
+ferro-fundido-cinzento.jpg  <-  Ferro fundido cinzento
+aluminio-1100.jpg  <-  Alumínio 1100
+aluminio-6061-t6.jpg  <-  Alumínio 6061-T6
+aluminio-7075-t6.jpg  <-  Alumínio 7075-T6
+cobre-puro-c11000.jpg  <-  Cobre puro (C11000)
+latao-70-30.jpg  <-  Latão 70/30
+bronze-fosforoso.jpg  <-  Bronze fosforoso
+titanio-ti-6al-4v.jpg  <-  Titânio Ti-6Al-4V
+titanio-cp-grau-2.jpg  <-  Titânio CP grau 2
+magnesio-az31b.jpg  <-  Magnésio AZ31B
+niquel-200.jpg  <-  Níquel 200
+inconel-718.jpg  <-  Inconel 718
+zinco-puro.jpg  <-  Zinco puro
+chumbo-puro.jpg  <-  Chumbo puro
+tungstenio.jpg  <-  Tungstênio
+pe-ld.jpg  <-  PE-LD
+pe-hd.jpg  <-  PE-HD
+polipropileno-pp.jpg  <-  Polipropileno (PP)
+pvc-rigido.jpg  <-  PVC rígido
+poliestireno-ps.jpg  <-  Poliestireno (PS)
+pmma-acrilico.jpg  <-  PMMA (acrílico)
+policarbonato-pc.jpg  <-  Policarbonato (PC)
+abs.jpg  <-  ABS
+nylon-6-6-pa66.jpg  <-  Nylon 6,6 (PA66)
+nylon-6-pa6.jpg  <-  Nylon 6 (PA6)
+pet.jpg  <-  PET
+ptfe-teflon.jpg  <-  PTFE (Teflon)
+pom-acetal.jpg  <-  POM (acetal)
+peek.jpg  <-  PEEK
+poliimida-kapton.jpg  <-  Poliimida (Kapton)
+poliuretano-termoplastico.jpg  <-  Poliuretano termoplástico
+epoxi-curado.jpg  <-  Epóxi (curado)
+fenolica-baquelite.jpg  <-  Fenólica (baquelite)
+silicone-elastomero.jpg  <-  Silicone (elastômero)
+pps.jpg  <-  PPS
+alumina-al2o3-99-5.jpg  <-  Alumina Al2O3 99,5%
+zirconia-y-tzp.jpg  <-  Zircônia Y-TZP
+carbeto-de-silicio-sic.jpg  <-  Carbeto de silício SiC
+nitreto-de-silicio-si3n4.jpg  <-  Nitreto de silício Si3N4
+nitreto-de-aluminio-aln.jpg  <-  Nitreto de alumínio AlN
+carbeto-de-boro-b4c.jpg  <-  Carbeto de boro B4C
+magnesia-mgo.jpg  <-  Magnésia MgO
+silica-fundida.jpg  <-  Sílica fundida
+vidro-soda-cal.jpg  <-  Vidro soda-cal
+vidro-borossilicato.jpg  <-  Vidro borossilicato
+porcelana.jpg  <-  Porcelana
+mulita.jpg  <-  Mulita
+cordierita.jpg  <-  Cordierita
+oxido-de-berilio-beo.jpg  <-  Óxido de berílio BeO
+titania-tio2.jpg  <-  Titânia TiO2
+espinelio-mgal2o4.jpg  <-  Espinélio MgAl2O4
+vitroceramica.jpg  <-  Vitrocerâmica
+itria-y2o3.jpg  <-  Ítria Y2O3
+nitreto-de-boro-hexagonal.jpg  <-  Nitreto de boro hexagonal
+refratario-de-chamote.jpg  <-  Refratário de chamote
+cfrp-unidirecional-epoxi.jpg  <-  CFRP unidirecional (epóxi)
+cfrp-tecido-epoxi.jpg  <-  CFRP tecido (epóxi)
+gfrp-unidirecional.jpg  <-  GFRP unidirecional
+gfrp-manta.jpg  <-  GFRP manta
+aramida-epoxi-kevlar.jpg  <-  Aramida/epóxi (Kevlar)
+carbono-peek.jpg  <-  Carbono/PEEK
+carbono-carbono.jpg  <-  Carbono-carbono
+al-sic-20-mmc.jpg  <-  Al-SiC 20% (MMC)
+al-sic-40-mmc.jpg  <-  Al-SiC 40% (MMC)
+wc-co-metal-duro.jpg  <-  WC-Co (metal duro)
+concreto-convencional.jpg  <-  Concreto convencional
+concreto-uhpc.jpg  <-  Concreto UHPC
+madeira-de-pinus.jpg  <-  Madeira de pinus
+compensado.jpg  <-  Compensado
+mdf.jpg  <-  MDF
+glare-al-vidro.jpg  <-  GLARE (Al/vidro)
+borracha-com-negro-de-fumo.jpg  <-  Borracha com negro de fumo
+pa66-30-fibra-de-vidro.jpg  <-  PA66 + 30% fibra de vidro
+pp-30-fibra-de-vidro.jpg  <-  PP + 30% fibra de vidro
+peek-30-fibra-de-carbono.jpg  <-  PEEK + 30% fibra de carbono

@@ -1,0 +1,81 @@
+categoria,nome,densidade_g_cm3,modulo_elasticidade_GPa,resistencia_MPa,condutividade_termica_W_mK,temp_max_servico_C,fonte,imagem
+Metálico,Aço SAE 1020,7.87,207,380,52,400,Callister; Ashby; ASM Handbook,aco-sae-1020.jpg
+Metálico,Aço SAE 1045,7.85,205,570,49,400,Callister; Ashby; ASM Handbook,aco-sae-1045.jpg
+Metálico,Aço inox AISI 304,8.0,193,505,16.2,925,Callister; Ashby; ASM Handbook,aco-inox-aisi-304.jpg
+Metálico,Aço inox AISI 316,8.0,193,515,16.3,870,Callister; Ashby; ASM Handbook,aco-inox-aisi-316.jpg
+Metálico,Aço ferramenta AISI D2,7.7,210,1700,20,425,Callister; Ashby; ASM Handbook,aco-ferramenta-aisi-d2.jpg
+Metálico,Ferro fundido cinzento,7.2,100,250,46,300,Callister; Ashby; ASM Handbook,ferro-fundido-cinzento.jpg
+Metálico,Alumínio 1100,2.71,69,90,222,200,Callister; Ashby; ASM Handbook,aluminio-1100.jpg
+Metálico,Alumínio 6061-T6,2.70,69,310,167,150,Callister; Ashby; ASM Handbook,aluminio-6061-t6.jpg
+Metálico,Alumínio 7075-T6,2.81,72,570,130,120,Callister; Ashby; ASM Handbook,aluminio-7075-t6.jpg
+Metálico,Cobre puro (C11000),8.96,117,220,401,200,Callister; Ashby; ASM Handbook,cobre-puro-c11000.jpg
+Metálico,Latão 70/30,8.53,110,330,120,200,Callister; Ashby; ASM Handbook,latao-70-30.jpg
+Metálico,Bronze fosforoso,8.8,110,400,70,250,Callister; Ashby; ASM Handbook,bronze-fosforoso.jpg
+Metálico,Titânio Ti-6Al-4V,4.43,114,950,6.7,400,Callister; Ashby; ASM Handbook,titanio-ti-6al-4v.jpg
+Metálico,Titânio CP grau 2,4.51,105,345,16.4,400,Callister; Ashby; ASM Handbook,titanio-cp-grau-2.jpg
+Metálico,Magnésio AZ31B,1.77,45,260,96,120,Callister; Ashby; ASM Handbook,magnesio-az31b.jpg
+Metálico,Níquel 200,8.89,204,462,70,600,Callister; Ashby; ASM Handbook,niquel-200.jpg
+Metálico,Inconel 718,8.19,205,1240,11.4,700,Callister; Ashby; ASM Handbook,inconel-718.jpg
+Metálico,Zinco puro,7.14,105,134,116,100,Callister; Ashby; ASM Handbook,zinco-puro.jpg
+Metálico,Chumbo puro,11.34,16,17,35,100,Callister; Ashby; ASM Handbook,chumbo-puro.jpg
+Metálico,Tungstênio,19.25,411,1510,173,1650,Callister; Ashby; ASM Handbook,tungstenio.jpg
+Polimérico,PE-LD,0.92,0.3,12,0.33,80,Callister; Ashby; fichas técnicas,pe-ld.jpg
+Polimérico,PE-HD,0.95,1.0,28,0.45,100,Callister; Ashby; fichas técnicas,pe-hd.jpg
+Polimérico,Polipropileno (PP),0.90,1.4,35,0.12,110,Callister; Ashby; fichas técnicas,polipropileno-pp.jpg
+Polimérico,PVC rígido,1.40,3.0,50,0.16,70,Callister; Ashby; fichas técnicas,pvc-rigido.jpg
+Polimérico,Poliestireno (PS),1.05,3.1,45,0.14,70,Callister; Ashby; fichas técnicas,poliestireno-ps.jpg
+Polimérico,PMMA (acrílico),1.18,3.0,70,0.19,85,Callister; Ashby; fichas técnicas,pmma-acrilico.jpg
+Polimérico,Policarbonato (PC),1.20,2.4,65,0.20,120,Callister; Ashby; fichas técnicas,policarbonato-pc.jpg
+Polimérico,ABS,1.05,2.3,40,0.17,80,Callister; Ashby; fichas técnicas,abs.jpg
+Polimérico,"Nylon 6,6 (PA66)",1.14,2.8,80,0.25,100,Callister; Ashby; fichas técnicas,nylon-6-6-pa66.jpg
+Polimérico,Nylon 6 (PA6),1.13,2.6,75,0.25,90,Callister; Ashby; fichas técnicas,nylon-6-pa6.jpg
+Polimérico,PET,1.38,2.8,55,0.15,115,Callister; Ashby; fichas técnicas,pet.jpg
+Polimérico,PTFE (Teflon),2.17,0.5,25,0.25,260,Callister; Ashby; fichas técnicas,ptfe-teflon.jpg
+Polimérico,POM (acetal),1.42,3.1,70,0.31,100,Callister; Ashby; fichas técnicas,pom-acetal.jpg
+Polimérico,PEEK,1.30,3.6,100,0.25,250,Callister; Ashby; fichas técnicas,peek.jpg
+Polimérico,Poliimida (Kapton),1.42,2.5,230,0.12,300,Callister; Ashby; fichas técnicas,poliimida-kapton.jpg
+Polimérico,Poliuretano termoplástico,1.20,0.05,40,0.20,80,Callister; Ashby; fichas técnicas,poliuretano-termoplastico.jpg
+Polimérico,Epóxi (curado),1.20,3.0,60,0.20,150,Callister; Ashby; fichas técnicas,epoxi-curado.jpg
+Polimérico,Fenólica (baquelite),1.30,5.0,50,0.25,150,Callister; Ashby; fichas técnicas,fenolica-baquelite.jpg
+Polimérico,Silicone (elastômero),1.15,0.005,7,0.20,200,Callister; Ashby; fichas técnicas,silicone-elastomero.jpg
+Polimérico,PPS,1.35,3.4,80,0.30,220,Callister; Ashby; fichas técnicas,pps.jpg
+Cerâmico,"Alumina Al2O3 99,5%",3.90,380,260,35,1700,Callister; Ashby; MatWeb,alumina-al2o3-99-5.jpg
+Cerâmico,Zircônia Y-TZP,6.05,210,800,2.5,1000,Callister; Ashby; MatWeb,zirconia-y-tzp.jpg
+Cerâmico,Carbeto de silício SiC,3.21,410,390,120,1650,Callister; Ashby; MatWeb,carbeto-de-silicio-sic.jpg
+Cerâmico,Nitreto de silício Si3N4,3.19,310,700,30,1200,Callister; Ashby; MatWeb,nitreto-de-silicio-si3n4.jpg
+Cerâmico,Nitreto de alumínio AlN,3.26,330,300,170,1000,Callister; Ashby; MatWeb,nitreto-de-aluminio-aln.jpg
+Cerâmico,Carbeto de boro B4C,2.52,460,350,35,1000,Callister; Ashby; MatWeb,carbeto-de-boro-b4c.jpg
+Cerâmico,Magnésia MgO,3.58,300,100,48,2000,Callister; Ashby; MatWeb,magnesia-mgo.jpg
+Cerâmico,Sílica fundida,2.20,73,50,1.4,1100,Callister; Ashby; MatWeb,silica-fundida.jpg
+Cerâmico,Vidro soda-cal,2.50,70,70,1.0,460,Callister; Ashby; MatWeb,vidro-soda-cal.jpg
+Cerâmico,Vidro borossilicato,2.23,64,70,1.1,500,Callister; Ashby; MatWeb,vidro-borossilicato.jpg
+Cerâmico,Porcelana,2.40,70,45,1.5,1000,Callister; Ashby; MatWeb,porcelana.jpg
+Cerâmico,Mulita,2.80,150,180,5,1600,Callister; Ashby; MatWeb,mulita.jpg
+Cerâmico,Cordierita,2.60,140,60,3,1200,Callister; Ashby; MatWeb,cordierita.jpg
+Cerâmico,Óxido de berílio BeO,3.01,345,140,250,2000,Callister; Ashby; MatWeb,oxido-de-berilio-beo.jpg
+Cerâmico,Titânia TiO2,4.20,280,70,8.5,1000,Callister; Ashby; MatWeb,titania-tio2.jpg
+Cerâmico,Espinélio MgAl2O4,3.58,270,190,15,1400,Callister; Ashby; MatWeb,espinelio-mgal2o4.jpg
+Cerâmico,Vitrocerâmica,2.50,90,60,1.5,700,Callister; Ashby; MatWeb,vitroceramica.jpg
+Cerâmico,Ítria Y2O3,5.03,170,100,13,2000,Callister; Ashby; MatWeb,itria-y2o3.jpg
+Cerâmico,Nitreto de boro hexagonal,2.10,45,35,30,900,Callister; Ashby; MatWeb,nitreto-de-boro-hexagonal.jpg
+Cerâmico,Refratário de chamote,2.10,25,10,1.2,1400,Callister; Ashby; MatWeb,refratario-de-chamote.jpg
+Compósito,CFRP unidirecional (epóxi),1.60,140,1500,5,150,Ashby; Callister; MatWeb,cfrp-unidirecional-epoxi.jpg
+Compósito,CFRP tecido (epóxi),1.55,70,600,3,150,Ashby; Callister; MatWeb,cfrp-tecido-epoxi.jpg
+Compósito,GFRP unidirecional,2.00,40,900,0.7,150,Ashby; Callister; MatWeb,gfrp-unidirecional.jpg
+Compósito,GFRP manta,1.70,12,110,0.3,120,Ashby; Callister; MatWeb,gfrp-manta.jpg
+Compósito,Aramida/epóxi (Kevlar),1.38,76,1400,0.5,150,Ashby; Callister; MatWeb,aramida-epoxi-kevlar.jpg
+Compósito,Carbono/PEEK,1.60,130,2100,3,250,Ashby; Callister; MatWeb,carbono-peek.jpg
+Compósito,Carbono-carbono,1.80,90,300,40,2000,Ashby; Callister; MatWeb,carbono-carbono.jpg
+Compósito,Al-SiC 20% (MMC),2.80,105,350,160,300,Ashby; Callister; MatWeb,al-sic-20-mmc.jpg
+Compósito,Al-SiC 40% (MMC),2.95,150,250,150,300,Ashby; Callister; MatWeb,al-sic-40-mmc.jpg
+Compósito,WC-Co (metal duro),14.6,600,1500,80,800,Ashby; Callister; MatWeb,wc-co-metal-duro.jpg
+Compósito,Concreto convencional,2.40,30,3,1.7,300,Ashby; Callister; MatWeb,concreto-convencional.jpg
+Compósito,Concreto UHPC,2.50,45,8,2.0,300,Ashby; Callister; MatWeb,concreto-uhpc.jpg
+Compósito,Madeira de pinus,0.50,10,80,0.12,100,Ashby; Callister; MatWeb,madeira-de-pinus.jpg
+Compósito,Compensado,0.60,8,40,0.13,100,Ashby; Callister; MatWeb,compensado.jpg
+Compósito,MDF,0.75,3,25,0.12,70,Ashby; Callister; MatWeb,mdf.jpg
+Compósito,GLARE (Al/vidro),2.50,58,1000,,120,Ashby; Callister; MatWeb,glare-al-vidro.jpg
+Compósito,Borracha com negro de fumo,1.15,0.01,25,0.25,100,Ashby; Callister; MatWeb,borracha-com-negro-de-fumo.jpg
+Compósito,PA66 + 30% fibra de vidro,1.37,9,185,0.35,120,Ashby; Callister; MatWeb,pa66-30-fibra-de-vidro.jpg
+Compósito,PP + 30% fibra de vidro,1.12,6,80,0.30,100,Ashby; Callister; MatWeb,pp-30-fibra-de-vidro.jpg
+Compósito,PEEK + 30% fibra de carbono,1.41,13,220,0.9,250,Ashby; Callister; MatWeb,peek-30-fibra-de-carbono.jpg

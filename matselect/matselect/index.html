@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MatSelect – Seleção de Materiais de Engenharia</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<canvas id="gl"></canvas>
+<nav><b>SELETOR DE MATERIAIS</b><div><a href="#projeto">Projeto</a><a href="#categorias">Categorias</a><a href="#ferramenta">Ferramenta</a><a href="#metodo">Método</a><a href="#grupo">Grupo</a></div></nav>
+
+<header class="hero">
+<small>UNILAB · Engenharia da Computação · Ciência dos Materiais</small>
+<h1 class="ttl"><span class="sr">A escolha certa de material começa nos dados.</span><canvas id="ttl" data-t="A escolha certa de material começa nos dados." aria-hidden="true"></canvas></h1>
+<p>Banco com 80 materiais metálicos, poliméricos, cerâmicos e compósitos, e uma ferramenta que filtra, compara e classifica candidatos segundo os requisitos da sua aplicação.</p>
+<p><a class="btn" href="#ferramenta">Usar a ferramenta</a></p>
+<span class="cue">ROLE PARA DESCOBRIR ↓</span>
+</header>
+
+<section id="projeto">
+<h2>Um programa de apoio à decisão em engenharia.</h2>
+<p class="lead">Não existe material universalmente melhor: a recomendação depende das condições de uso. Por isso o usuário escolhe de duas a três propriedades, define requisitos (mínimo, máximo ou preferência) e o programa mostra quem atende, em ordem de classificação, com valores e fontes.</p>
+<div class="stats"><div><b id="n">80</b>materiais</div><div><b>4</b>categorias</div><div><b>5</b>propriedades por material</div><div><b>3</b>cenários de teste</div></div>
+</section>
+
+<section id="categorias">
+<h2>Quatro famílias de materiais.</h2>
+<div class="grid" id="cats"></div>
+</section>
+
+<section id="ferramenta">
+<h2>Ferramenta de seleção.</h2>
+<p class="lead">Escolha de 2 a 3 propriedades, defina requisitos e pesos. Deixe o valor em branco para apenas ordenar por preferência.</p>
+<div class="row" id="presets"></div>
+<div class="row vsw" id="vsw"><button class="chip on" id="v3d" type="button">Ver em 3D</button></div>
+<div class="stage" id="stage"><div class="pin"><canvas id="gb3d" aria-label="Console MATBOY em 3D: clique nos botões e arraste para girar"></canvas><div class="stbar"><button id="stBack" type="button">↩ Voltar</button><button id="vcl" type="button">Visual clássico</button></div><div class="hint3" id="hint3"></div></div></div>
+<div class="rig"><div class="gb-col"><div class="feed" id="feed"><div class="paper" id="paper"><div class="pt" id="pt1">MATSELECT · COMPROVANTE</div><div class="pn" id="pn"></div><div class="pz" id="pz"></div><img id="photo" alt=""><div class="pc" id="cap"></div><pre id="pp"></pre><div class="pt" id="pk"></div><pre id="pq"></pre><div class="pt" id="pf"></div><button id="back" type="button">↩ VOLTAR</button></div></div><div class="gb"><i class="slot"></i><div class="bezel"><span class="pwr" id="pwr">● BATERIA</span><div class="lcd"><div id="list"></div><div id="det"><canvas id="art" width="64" height="48"></canvas><div id="info"></div></div></div></div><div class="brand">MATBOY <i>COLOR</i></div><div class="ctl"><div class="dpad"><button id="up">▲</button><button id="lf">◀</button><button id="rt">▶</button><button id="dn">▼</button></div><div class="ab"><div class="k"><button id="bB">B</button><span>RESET</span></div><div class="k"><button id="bA">A</button><span>ACEITAR</span></div></div></div><div class="ss"><button id="sel">SELECT</button><button id="sta">START</button><button id="mi">MÓDULO</button><button id="mp">PAINEL</button></div><p class="hint">▲▼ navegar · A ACEITAR (começa, imprime o resultado) · B RESET (aperte duas vezes para confirmar) · SELECT próximo cenário · START imprime · MÓDULO acopla as informações · PAINEL abre o painel de busca.</p></div></div><aside class="mod" id="mod" aria-label="Módulo de informações"><div class="pins"></div><div class="mbody"><div class="mhead"><span>MÓDULO · INFO</span><button id="mclose" type="button" title="Ejetar módulo">⏏</button></div><h3 id="mname"></h3><dl id="mdl"></dl></div></aside></div>
+<div class="tool cart"><b>CARTUCHO · requisitos</b>
+<div id="crits"></div>
+<label>Categorias</label><div class="chips" id="chips"></div>
+<div class="row"><button class="btn s" id="go">Buscar materiais</button><button class="btn s" id="all" style="background:transparent;color:var(--acc);border:1px solid var(--acc)">Ver banco completo</button></div>
+<div id="out"></div>
+
+</div>
+<p class="note">Valores típicos de referência (temperatura ambiente). Para cerâmicos frágeis, a resistência refere-se à flexão quando não há dado de tração. Confirme cada valor nas fontes antes de citar em relatório.</p>
+</section>
+
+<section id="metodo">
+<h2>Como o programa compara os materiais.</h2>
+<div class="grid">
+<div class="card"><div class="num">1</div><h3>Filtragem</h3><p>Materiais que não cumprem um mínimo ou máximo, ou sem dado da propriedade escolhida, são eliminados.</p></div>
+<div class="card"><div class="num">2</div><h3>Normalização</h3><p>Cada propriedade é levada à escala 0–1 entre os candidatos (min–máx), invertida quando a preferência é por valores menores.</p></div>
+<div class="card"><div class="num">3</div><h3>Pontuação</h3><p>Média ponderada das notas pelos pesos 1 a 3 definidos pelo usuário.</p></div>
+<div class="card"><div class="num">4</div><h3>Ranking</h3><p>Ordenação pela pontuação, exibindo valores, unidades e fonte.</p></div>
+</div>
+<h3 style="margin-top:2.5rem">Atividade gráfica: vibração atômica</h3>
+<svg viewBox="0 0 560 190" role="img" aria-label="Posição média e posição instantânea de um átomo na rede cristalina">
+<g fill="none" stroke="var(--line)" stroke-width="2"><line x1="40" y1="95" x2="520" y2="95"/></g>
+<g fill="var(--line)"><circle cx="80" cy="95" r="20"/><circle cx="180" cy="95" r="20"/><circle cx="380" cy="95" r="20"/><circle cx="480" cy="95" r="20"/></g>
+<circle cx="280" cy="95" r="20" fill="none" stroke="var(--mut)" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="306" cy="95" r="20" fill="var(--acc)"/>
+<line x1="280" y1="40" x2="280" y2="75" stroke="var(--mut)" stroke-dasharray="3 3"/><line x1="306" y1="40" x2="306" y2="75" stroke="var(--acc)"/>
+<line x1="280" y1="50" x2="306" y2="50" stroke="var(--fg)" stroke-width="2"/>
+<text x="293" y="32" text-anchor="middle" fill="var(--fg)" font-size="14">u(t)</text>
+<text x="250" y="150" text-anchor="end" fill="var(--mut)" font-size="13">posição média (equilíbrio)</text>
+<text x="320" y="150" fill="var(--acc)" font-size="13">posição instantânea</text>
+<text x="280" y="180" text-anchor="middle" fill="var(--mut)" font-size="12">o átomo oscila em torno do ponto de equilíbrio da rede</text>
+</svg>
+</section>
+
+<section id="grupo">
+<h2>Grupo e testes.</h2>
+<p class="lead">Disciplina COENCOM0094 – Introdução à Ciência dos Materiais · Prof. Dr. Carlos A. Cáceres · 2026.2. Integrantes: Agostinho Sambú, Edimilson Wisban Biaguê Junior, Keydna Will Alves Ceita e Rofi Correia. Os três botões “Cenário” da ferramenta reproduzem os testes do relatório.</p>
+</section>
+
+<footer><b>SELETOR DE MATERIAIS</b> · Atividade Prática Computacional nº 03 · UNILAB · Instituto de Engenharia e Desenvolvimento Sustentável<br>Fontes de referência: Callister; Ashby; ASM Handbooks; MatWeb. Dados complementares: NIST JARVIS-DFT e NIST Materials Data (a confirmar por registro).<br><span id="integ">verificando integridade…</span></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/info.js"></script>
+<script src="js/seguranca.js"></script>
+<script src="js/app.js"></script>
+<script src="js/titulo.js"></script>
+<script src="js/gameboy3d.js"></script>
+<script src="js/webgl.js"></script>
+</body>
+</html>
