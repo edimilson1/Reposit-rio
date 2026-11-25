@@ -1,4 +1,4 @@
-"""Ferramentas de seguranca do MatSelect.
+"""Ferramentas de seguranca do Seletor de materiais.
 
   python python/seguranca.py hash          recalcula o SHA-256 do banco e grava em js/data.js
                                            (rode sempre que editar RAW em js/data.js)

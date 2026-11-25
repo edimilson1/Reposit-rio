@@ -45,17 +45,19 @@ footer{background:var(--acc2);color:#cfe0ee;padding:6vh 5vw calc(6vh + env(safe-
 
 /* acessibilidade do titulo em canvas */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}#ttl{display:block;cursor:crosshair;touch-action:pan-y}
-/* console na cor do site */
+
+/* as cores do console para combinar com as do site */
 .gb{background:linear-gradient(160deg,#4a86b8,#2d628c 55%,#1f4a6b);color:#fff;box-shadow:0 22px 50px rgba(0,0,0,.45),inset 0 -6px 0 rgba(0,0,0,.2),inset 0 2px 0 rgba(255,255,255,.25)}
 .bezel{background:#0f2a40}.pwr{color:#8fc4ec}.brand{color:#fff}.brand i{color:#8fc4ec}
 .dpad button{background:#0f2a40;color:#8fc4ec}.ab button{background:#0f2a40;color:#cfe6f7;box-shadow:0 3px 0 #08172a}
 .ss button{background:rgba(255,255,255,.28);color:#fff}.hint{color:rgba(255,255,255,.85)}
+
 /* troca de tela: o visor desliza para a esquerda e mostra a foto */
 .lcd{overflow:hidden}.track{display:flex;width:200%;transition:transform .5s cubic-bezier(.7,0,.3,1)}.pane{width:50%;flex:none;min-height:290px;min-width:0}.track.photo{transform:translateX(-50%)}
 #photoPane{display:flex;flex-direction:column;gap:6px;padding:6px}#photo{width:100%;height:210px;object-fit:cover;border:2px solid #0f380f;background:#8bac0f;display:block}#cap{font-weight:700}
 #back{align-self:flex-start;background:#0f380f;color:#9bbc0f;border:0;padding:4px 10px;font:inherit;cursor:pointer}
 
-/* impressora termica (papel sai do console) */
+/* Os codigos da cena que mostra a imagem e ela funciona como uma impressora termica */
 .rig{display:flex;justify-content:center;align-items:flex-start;margin:1.5rem 0}.gb-col{width:100%;max-width:520px;flex:none}.gb{margin:0 auto}
 .slot{position:absolute;top:-5px;left:15%;width:70%;height:10px;background:#08172a;border-radius:6px;z-index:3;box-shadow:inset 0 -2px 0 rgba(255,255,255,.12)}
 .feed{position:relative;height:0;overflow:hidden;transition:height .45s ease .35s}.feed.open{height:420px;transition:height .45s ease}
@@ -66,7 +68,8 @@ footer{background:var(--acc2);color:#cfe0ee;padding:6vh 5vw calc(6vh + env(safe-
 #photo{width:100%;height:170px;object-fit:cover;display:block;filter:grayscale(.65) contrast(1.15);border:1px solid #bbb;background:#eee}
 #pp{margin:6px 0;font:11px/1.5 "Courier New",monospace;white-space:pre-wrap;text-align:left;overflow:hidden}
 #back{margin-top:8px;background:#0f2a40;color:#fff;border:0;border-radius:99px;padding:5px 14px;font:inherit;font-size:11px;cursor:pointer}
-/* modulo de informacoes acoplado */
+
+/* Esse é o modulo de informações aquela cena que aparece quando vc tenta saber mais sobre o material selecionado */
 .mod{flex:none;width:0;overflow:hidden;transition:width .7s cubic-bezier(.7,0,.3,1);align-self:center}.mod.open{width:340px}
 .pins{position:absolute;left:0;top:18%;bottom:18%;width:10px;background:repeating-linear-gradient(#d4af37 0 5px,#0b1b2b 5px 9px);border-radius:3px 0 0 3px}
 .mbody{position:relative;width:340px;min-height:360px;margin:0;padding:14px 16px 18px 24px;background:linear-gradient(160deg,#1b4467,#0f2a40);color:#cfe6f7;border-radius:6px 18px 18px 6px;box-shadow:0 18px 40px rgba(0,0,0,.4),inset 0 2px 0 rgba(255,255,255,.18)}
@@ -77,17 +80,17 @@ footer{background:var(--acc2);color:#cfe0ee;padding:6vh 5vw calc(6vh + env(safe-
 @media(max-width:520px){.feed.open{height:400px}.paper{left:8%;width:84%}.slot{left:8%;width:84%}}
 .ss{margin:10px 0 30px}.hint{margin-top:1.6rem}
 
-/* calculadora: passos, teclas rotuladas e comprovante de resultado */
+/* Aqui é o corbo do nosso gameboy rapeize*/
 .stp{font-size:10px;letter-spacing:.08em;opacity:.8}.k{display:flex;flex-direction:column;align-items:center;gap:5px}.k span{font:700 9px monospace;letter-spacing:.08em;color:#cfe6f7}
 .pz{font:700 22px/1.2 "Courier New",monospace;margin:2px 0 6px}#pz:empty,#pk:empty,#pq:empty{display:none}#pk{margin-top:4px}#pq{margin:4px 0;font:11px/1.5 "Courier New",monospace;white-space:pre-wrap;text-align:left}
 .feed.open{height:560px}@media(max-width:520px){.feed.open{height:540px}}
 
-/* console 3D (WebGL) */
+/* Esses são os códigos do console 3d lembrando que aplicamos webgl na sua criação*/
 .vsw{display:none;justify-content:center;gap:.5rem;margin:1rem 0 0}.has3d .vsw{display:flex}
 .stage{display:none;position:relative;max-width:860px;margin:1rem auto}.mode3d .stage{display:block}.mode3d .rig{display:none}
 #gb3d{display:block;width:100%;height:clamp(480px,80vh,700px);touch-action:pan-y;cursor:grab}
 
-/* cena 3D em tela cheia: so o console aparece */
+/* Aqui é a brisa que garante que quando o cenario muda para 3d só vai aparecer o console */
 .stage{max-width:none;margin:0;height:100vh;height:100dvh;background:radial-gradient(ellipse at 50% 45%,rgba(15,42,64,.5),rgba(5,12,20,.9))}
 #gb3d{height:100%}
 .stbar{position:absolute;top:calc(64px + env(safe-area-inset-top,0px));left:0;right:0;display:flex;justify-content:space-between;padding:0 4vw;pointer-events:none}
@@ -100,3 +103,12 @@ footer{background:var(--acc2);color:#cfe0ee;padding:6vh 5vw calc(6vh + env(safe-
 .stage{height:300vh;background:none}.pin{position:sticky;top:0;height:100vh;height:100dvh;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,rgba(15,42,64,.5),rgba(5,12,20,.9))}
 .hint3{position:absolute;bottom:3vh;left:0;right:0;text-align:center;color:rgba(255,255,255,.75);font-size:.8rem;letter-spacing:.1em;pointer-events:none}
 .stbar{top:calc(64px + env(safe-area-inset-top,0px))}
+
+/*Enfim rapeize até agora essas são as cenas que colocamos e tal mas assim o site ainda
+não parrou e promete crescer mais apesar de ser só um trabalho de uma das nossas disciplina na facu
+mas nunca se sabe né, se você analizou esses códigos e chegou até aqui não se esqueça dos autores
+Agostinho Sambú, Edimilson Wisban Biaguê Junior, Keydna Will Alves Ceita e Rofi Correia*/
+
+/*E só mais uma coisa esses códigos foram implementadas em 2026 na disciplina de Introdução a Ciência dos materiais
+do curso e engenharia de computação da Universidade da Integração Internacional da Lusofonia Afro-Brasileira 
+(UNILAB) lecionado na epoca pelo professor Carlor Casséres*/

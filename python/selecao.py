@@ -1,4 +1,4 @@
-"""MatSelect - versao em linha de comando (Python 3, sem dependencias).
+"""Seletor de Mateiais - versao em linha de comando (Python 3, sem dependencias).
 
 Le data/materiais.csv, filtra por requisitos e ranqueia pelo mesmo metodo do site:
 filtro -> normalizacao min-max -> media ponderada -> ordenacao.
@@ -77,3 +77,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+Autores:
+Agostinho Sambú
+Edimilson Wisban Biaguê Junior
+Keydna Will Ceita
+Rofi Correia
+"""
